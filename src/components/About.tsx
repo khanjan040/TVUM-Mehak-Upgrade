@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export function About() {
-  const images = ["/IMG_4667.JPG.jpeg", "/IMG_4668.JPG.jpeg"];
+  const images = ["/IMG_4667.JPG.jpeg"];
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
