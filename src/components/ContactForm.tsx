@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Send, CheckCircle, MapPin, Instagram, MessageCircle } from 'lucide-react';
+import { Send, CheckCircle, MapPin, Instagram, MessageCircle, MessageCircle as WhatsAppIcon } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 const reasons = [
@@ -60,13 +60,27 @@ export function ContactForm() {
   if (isSubmitted) {
     return (
       <section id="contact" className="py-24 bg-[#8B7355]">
-        <div className="max-w-3xl mx-auto px-6">
+        <div className="max-w-3xl mx-auto px-6 space-y-8">
           <div className="bg-white rounded-2xl p-12 text-center">
             <CheckCircle className="w-20 h-20 text-green-500 mx-auto mb-6" />
             <h3 className="text-3xl font-light text-[#8B7355] mb-4">Thank You!</h3>
             <p className="text-xl text-gray-600">
               We've received your inquiry and will get back to you soon.
             </p>
+          </div>
+
+          <div className="bg-white rounded-2xl p-12 text-center">
+            <h3 className="text-2xl font-light text-[#8B7355] mb-6">Have any questions?</h3>
+            <p className="text-lg text-gray-600 mb-8">Contact us through WhatsApp</p>
+            <a
+              href="https://wa.me/919561852500"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#20BA5A] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+            >
+              <WhatsAppIcon className="w-6 h-6" />
+              Message us on WhatsApp
+            </a>
           </div>
         </div>
       </section>
