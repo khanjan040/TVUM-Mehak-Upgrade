@@ -121,14 +121,14 @@ export function ContactForm() {
                   Contact Details *
                 </label>
                 <input
-                  type="text"
+                  type="number"
                   id="contact"
                   name="contact"
                   required
                   value={formData.contact}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border-2 border-[#A69080]/30 rounded-lg focus:border-[#8B7355] focus:outline-none transition-colors duration-300"
-                  placeholder="Phone number or email"
+                  placeholder="Phone number"
                 />
               </div>
 
