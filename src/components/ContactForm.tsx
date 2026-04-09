@@ -230,7 +230,17 @@ export function ContactForm() {
             </div>
 
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-64">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3422.797723744967!2d73.78707127465314!3d18.559849867974343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf9cce54f0e5%3A0xcdb1242d499cf52!2sTvum%20yoga%20and%20wellness%20studio!5e1!3m2!1sen!2sin!4v1775721420094!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3422.797723744967!2d73.78707127465314!3d18.559849867974343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf9cce54f0e5%3A0xcdb1242d499cf52!2sTvum%20yoga%20and%20wellness%20studio!5e1!3m2!1sen!2sin!4v1775721420094!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="TVUM Yoga Studio Location"
+              ></iframe>
+              
             </div>
           </div>
         </div>
