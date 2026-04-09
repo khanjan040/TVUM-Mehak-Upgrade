@@ -1,12 +1,11 @@
 import { ArrowRight } from 'lucide-react';
 
 const galleryImages = [
-  'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg',
-  'https://images.pexels.com/photos/3822774/pexels-photo-3822774.jpeg',
-  'https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg',
-  'https://images.pexels.com/photos/3822621/pexels-photo-3822621.jpeg',
-  'https://images.pexels.com/photos/3822719/pexels-photo-3822719.jpeg',
-  'https://images.pexels.com/photos/3822647/pexels-photo-3822647.jpeg',
+  '/IMG_8893.jpg',
+  '/IMG_9513.jpg',
+  '/IMG_8850.jpg',
+  '/IMG_9092.JPEG',
+  '/IMG_9091.JPEG',
 ];
 
 export function StudioSpace() {
