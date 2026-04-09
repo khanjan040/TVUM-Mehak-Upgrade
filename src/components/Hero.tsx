@@ -27,10 +27,6 @@ export function Hero() {
       <div className="relative z-10 flex-1 flex items-center">
         <div className="w-full px-8 md:px-12 lg:px-16 pb-16 pt-8">
           <div className="max-w-[520px]">
-            <p className="text-[#C4A882] text-sm md:text-base font-medium tracking-[0.2em] uppercase mb-5">
-              Baner, Pune
-            </p>
-
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-[1.1] mb-8 tracking-tight">
               Yoga That Heals,<br />
               <span className="text-[#C4A882]">Strength That Lasts.</span>
@@ -46,6 +42,10 @@ export function Hero() {
                 </li>
               ))}
             </ul>
+
+            <p className="text-[#C4A882] text-sm md:text-base font-medium tracking-[0.2em] uppercase mb-5">
+              Baner, Pune
+            </p>
 
             <button
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
