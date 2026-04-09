@@ -6,6 +6,7 @@ const galleryImages = [
   '/IMG_8850.jpg',
   '/IMG_9092.JPEG',
   '/IMG_9091.JPEG',
+  '/IMG_9086.JPEG',
 ];
 
 export function StudioSpace() {
@@ -53,15 +54,6 @@ export function StudioSpace() {
             Reserve Your Spot
             <ArrowRight className="w-5 h-5" />
           </button>
-          <a
-            href="https://wa.me/919561852500"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-transparent border-2 border-[#8B7355] text-[#8B7355] px-8 py-4 rounded-md text-lg font-medium hover:bg-[#8B7355] hover:text-white transition-all duration-300 flex items-center gap-2"
-          >
-            Book the Space
-            <ArrowRight className="w-5 h-5" />
-          </a>
         </div>
       </div>
     </section>
