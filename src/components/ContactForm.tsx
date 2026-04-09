@@ -183,21 +183,6 @@ export function ContactForm() {
               <h3 className="text-2xl font-medium text-[#8B7355] mb-6">Contact Information</h3>
               <div className="space-y-6">
                 <a
-                  href="https://wa.me/919561852500"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 text-gray-700 hover:text-[#8B7355] transition-colors group"
-                >
-                  <div className="bg-[#F5F1ED] p-3 rounded-full group-hover:bg-[#8B7355] group-hover:text-white transition-colors">
-                    <MessageCircle className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-500">WhatsApp</p>
-                    <p className="text-lg font-medium">+91 9561852500</p>
-                  </div>
-                </a>
-
-                <a
                   href="https://instagram.com/mehak181"
                   target="_blank"
                   rel="noopener noreferrer"
