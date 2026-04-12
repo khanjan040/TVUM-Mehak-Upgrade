@@ -1,7 +1,7 @@
 import { Clock, Users } from 'lucide-react';
 
 const schedules = [
-  { time: '6:30–7:30 AM', days: 'Mon, Wed, Fri' },
+  { time: '6:45–7:45 AM', days: 'Mon, Wed, Fri' },
   { time: '8:00–9:00 AM', days: 'Mon, Wed, Fri' },
   { time: '6:30–7:30 PM', days: 'Mon, Wed, Fri' },
 ];

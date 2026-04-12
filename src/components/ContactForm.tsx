@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Send, CheckCircle, MapPin, Instagram, MessageCircle, MessageCircle as WhatsAppIcon } from 'lucide-react';
+import { Send, CheckCircle, MapPin, Instagram, MessageCircle as WhatsAppIcon } from 'lucide-react';
 import { supabase } from '../lib/supabase';
+import emailjs from '@emailjs/browser';
 
 const reasons = [
   'Improve Flexibility',
@@ -35,6 +36,18 @@ export function ContactForm() {
         .insert([formData]);
 
       if (submitError) throw submitError;
+
+      await emailjs.send(
+        'service_tqw78n9',
+        'template_a2aohxf',
+        {
+          name: formData.name,
+          contact: formData.contact,
+          reason: formData.reason,
+          why_join: formData.why_join,
+        },
+        'plYcbyXn2WikyJFNs'
+      );
 
       setIsSubmitted(true);
       setFormData({ name: '', contact: '', why_join: '', reason: '' });

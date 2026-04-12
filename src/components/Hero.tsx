@@ -3,7 +3,7 @@ import { ArrowRight, Check } from 'lucide-react';
 const bullets = [
   'Small-group classes with personal attention',
   'Strength, mobility & pain relief focused',
-  'Suitable for beginners & prenatal students',
+  'Suitable for beginners',
 ];
 
 export function Hero() {
